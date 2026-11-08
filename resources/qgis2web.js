@@ -4,7 +4,7 @@ var map = new ol.Map({
     renderer: 'canvas',
     layers: layersList,
     view: new ol.View({
-        extent: [-7289164.988880, -5368544.654681, -7233463.013037, -5341704.224918], maxZoom: 28, minZoom: 1
+         maxZoom: 28, minZoom: 1
     })
 });
 
@@ -529,12 +529,6 @@ map.addControl(Title)
 
 //layerswitcher
 
-var layerSwitcher = new ol.control.LayerSwitcher({
-    tipLabel: "Layers",
-    target: 'top-right-container'
-});
-map.addControl(layerSwitcher);
-    
 
 
 
